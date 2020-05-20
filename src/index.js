@@ -4,7 +4,7 @@ import getPokemonInfo from './pokemon.js';
 
 const APP_ELEM = 'app'
 const ELEM = document.getElementById(APP_ELEM);
-const POKEMON_NAME = 'ditto';
+const POKEMON_NAME = 'rattata';
 const HOME_TAB = 'homeTab'
 const POKEMON_TAB = 'pokemonTab'
 

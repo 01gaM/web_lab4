@@ -21,7 +21,7 @@ export default async function getPokemonInfo(pokemonName) {
 	const POKEMON_DATA = await response.json();
 	
 	let pokeID = POKEMON_DATA.id
-	let pokeInfo = `<div><div><img src = "https://pokeres.bastionbot.org/images/pokemon/${pokeID}.png" alt = "Pokemon image"/></div>`
+	let pokeInfo = `<div><div><img src = "https://pokeres.bastionbot.org/images/pokemon/${pokeID}.png" alt = "Pokemon image" style="width:300px;height:300px"/></div>`
 	
     pokeInfo += `<div><span><span style="font-weight: bold">Name: </span>${pokemonName}<br></span>`;
 
